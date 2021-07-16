@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<title>Document</title>
+	<style>
+	 .portofile{
+	 	border-radius: 20px;
+	 	position: absolute;
+	 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	 	width: 350px;
+	 	height: 90px;
+	 	top: 200px;
+	 	left: 38%;
+	 	display: flex;
+	 	justify-content: space-between;
+	 }
+	.portobody{
+	 	position: relative;
+	}
+	.uparrow{
+		width:30px ;
+		height: 30px;
+		transform: rotate(0deg);
+	}
+	.portoopen{
+		height: 90px;
+		width:100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.rotate{
+		transform: rotate(180deg);
+		transition: 1s ease-in-out;
+	}
+	.rotateback{
+		transform: rotate(0deg);
+		transition: 1s;
+	}
+	.portofileW{
+		height: 500px;
+		transition: 1s;
+	}
+	</style>
+</head>
+<body>
+
+	<!--  <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607" alt=""></div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ -->
+<!--  	<div id="jso">
+ 		
+ 	</div>
+
+ 	<input type="number" id="imgslid">
+ 	<div id="demo"></div>
+ 	<button id="btn">Click</button>
+ 	<div id="test"></div>
+
+	<script src="js/main.js"></script>
+	https://codepen.io/andyNroses/pen/AXwPkb -->
+	<div class="portobody">
+		<div class="portofile">
+			<div class="portotext">
+				
+			</div>
+			<div class="portoopen" >
+				<img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png" class="uparrow" alt="Up">
+			</div>
+		</div>
+	</div>
+	<input type="text" id="num">
+	<button onclick="funk()">Input value</button>
+	<p id="message"></p>
+
+
+ 	<div id="datafetch"></div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
